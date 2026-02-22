@@ -4,6 +4,7 @@ description: "I go on a tangent regarding Web Browsers when I could be spending 
 date: "2026-02-22"
 wordcount: '4628'
 read-time: '25'
+thumbnail: "images/blogimage/blog4/thumbnail/thumbnail.png"
 tags:
   - Opsec
   - Privacy
@@ -159,7 +160,7 @@ Essentially, while just opening the browser and not EVEN navigating to any page 
 - Fingerprinted the HOST device and sent it to Mozilla
 - Stored/Promoted data from Advertisers
 
-#### Tab Behavior
+#### Tab Behavior Firefox
 
 ---
 
@@ -167,7 +168,7 @@ Well after shifting through the "launch" behavior of FireFox it's time to mix th
 
 However the second a new tab is opened three HTTPS **GET** requests are sent to ads.mozilla.org
 
-![GitRepo/Personal/Blog/Images/images(mitm)/firefox_newtab](../images/blogimage/blog4/GitRepo/Personal/Blog/Images/images(mitm)/firefox_newtab.png)
+![GitRepo/Personal/Blog/Images/images(mitm)/firefox_newtab](https://rellisreal.cc/images/blogimage/blog4/firefox_newtab.png)
 
 The request body in all three requests is filled with Base64 Encoded Content.
 
@@ -531,4 +532,3 @@ Pay attention to what applications you are installing, put reasonable effort int
 Technology will continue evolving, peoples dependencies on the latest technological trends will increase, there will be less and less physical dependencies in the world. Don't blindly believe one source of truth for anything always keep an open mind and always try to find reasonable conclusions made by YOU.
 
 Urm yeah in terms of browsers probably go for Pale-Moon or Ungoogled Chromium lol.
-
