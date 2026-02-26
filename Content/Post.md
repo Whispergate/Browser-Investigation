@@ -100,7 +100,7 @@ Firefox is a free [open-source](https://github.com/mozilla-firefox/firefox) web 
 
 As per the data from the [Firefox Public Data Report](https://data.firefox.com/dashboard/user-activity)  Firefox has been averaging 190,000,000 to 200,000,000 users in 2026.
 
-After launching FireFox we can observe the **GET/POST** requests that are being made. These Network requests are being immediately issued out after the aapplication is launched by any user for the first time. So at an absolute minimum FireFox is getting hundreds of millions of requests per day supplying filled with data.
+After launching FireFox we can observe the **GET/POST** requests that are being made. These Network requests are being immediately issued out after the application is launched by any user for the first time. So at an absolute minimum FireFox is getting hundreds of millions of requests per day supplying filled with data.
 
 ![firefox_totalreq](https://rellisreal.cc/images/blogimage/blog4/firefox_totalreq.png)
 
@@ -139,7 +139,7 @@ And as a response generic weather data of the end-users local area is supplied b
 
 ![firefox_weather](https://rellisreal.cc/images/blogimage/blog4/firefox_weather.png)
 
-Well enough about the widgets and advertiser data we need some OS fingerprinting luckily the next request to 'incoming.telemtry.mozilla.org' did just that. With a fingerprint of my VM's operating system details, locale, CPU architecture ETC
+Now we've had enough with the widgets and advertiser data now we are introduced with some old fashion OS fingerprinting. The next request to 'incoming.telemtry.mozilla.org' does this, with a fingerprint of my VM's operating system details, locale, CPU architecture ETC.
 
 Telemetry settings can be easily disabled however it's a bit pointless if upon a new-users first launch of Firefox all of this data is immediately sent to Mozilla.
 
@@ -213,7 +213,7 @@ In-case you are curious active_ticks is a probe specified by FireFox once in eve
 #### Behavior after opting out of everything
 
 ---
-To give FireFox a fair chance I will manually opt out of all the "optional telemetry" this also includes any weather / diagnostic options within Firefox settings we left with the following after launch.
+To give FireFox a fair chance I will manually opt out of all the "optional telemetry", this also includes any weather/diagnostic options within Firefox settings.
 
 I think it would be extremely beneficial for everyone (But Mozilla's Data & Marketing Departments) if this was the default configuration
 
@@ -244,7 +244,7 @@ Well what is **mtalk.google.com:5228** you may wonder? Well on the service what 
 
 ![GoogleTalk_Logo](https://rellisreal.cc/images/blogimage/blog4/GoogleTalk_Logo.png)
 
-The Google Talk web-app has been discontinued over 10 years ago for some reason there is still active network activity every-time you launch and use Chrome. This might be a case of forgotten cleanup, or the call is so ingrained into the Chromium browser that is hard to remove, but regardless it is an unnecessary network call that is being made for no reason.
+The Google Talk web-app has been discontinued over 10 years ago. For some reason there is still active network activity every-time you launch and use Chrome. This might be a case of forgotten cleanup, or the call is so ingrained into the Chromium browser that is hard to remove, but regardless it is an unnecessary network call that is being made for no reason.
 
 After that initial tangent looking closer at the initial batch of HTTPS requests we don't really see too much, there are some observable connection to clients2.google.com as a connectivity test.
 
@@ -521,7 +521,7 @@ Nothing notable between closing and opening new tabs.
 ## In Conclusion
 
 ---
-Now to wrap things up on this short and concise blog-post, the core of my discussion was to emphasize network traffic being generated from Web-Browsers in order to raise end-user awareness on the matter. As no end-users typically consider this.
+Now to wrap things up on this short and concise blog-post, the core of my discussion was to emphasize network traffic being generated from Web-Browsers in order to raise end-user awareness on the matter -- as no end-users typically consider this.
 
 The typical day-to-day end-user is usually more conscious on their ISP's spying on them and end up procuring VPN's. However for any applications they're installation without proper consideration of the developer/company they're choosing. that might not respect their right to privacy at all.
 
