@@ -4,7 +4,6 @@ description: "I go on a tangent regarding Web Browsers when I could be spending 
 date: "2026-02-22"
 wordcount: '4628'
 read-time: '25'
-thumbnail: "images/blogimage/blog4/thumbnail/thumbnail.png"
 tags:
   - Opsec
   - Privacy
